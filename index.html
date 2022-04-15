@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MONNAYEUR</title>
+        <link rel="icon" type="image/png" href="./image/piece-de-monnaie.png" />
+        <meta name="description" content="Un monnayeur simple rapide et efficace en ligne.">
+        <meta name="theme-color" content="#001B42">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://maison-hub.github.io/monnayeur/image/homme-monnaie.png">
+        <meta property="og:image:alt" content="MONNAYEUR">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    </head>
+    <body class="default">
+
+        <section class="home">
+
+            <div class="content">
+                <header>
+                    <a>MONNAYEUR</a>
+
+                    <div class="switchBox">
+                        <img src="./image/sun.png" alt="">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                          </label>
+                        <img src="./image/moon.png" alt="">
+                    </div>
+                </header>
+
+                <img class='heroImg' src="./image/homme-monnaie.png" alt="homme avec une piece">
+                <div class="rightPart">
+                    <h1>Monnayeur</h1>
+                    <h1>simple et rapide 🚀</h1>
+                    <a class="discBtn" href="#wave">Découvrir</a>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="section2" id="monayeur">
+            <img class="wave" id="wave" src="./image/wave.svg" alt="wave">
+
+            <div class="ajouter">
+                <div class="ajouterBtn">
+                    <p>&#10799;</p>
+                </div>
+
+                <div class="ajouterWrap">
+                    <input class="inputName" type="text" placeholder="Nom">
+                    <input class="inputPrix" type="text" placeholder="Prix en €">
+                    <button class="ajouterBtn validate">
+                        <p>&#10003;</p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="flexContainer">
+    
+                <div>
+                    <p class="infoTitle">objets</p>
+                    <ul class="listeItem">
+                    </ul>
+                </div>
+    
+                <div class="paiement">
+                    <p class="infoTitle">piece pour payer</p>
+                    <ul class="pieceUtilise">
+                    </ul>
+                    <span>
+                        <button type="button" class="payer">payer</button>
+                        <p class="totalPieceDonne">total:</p>
+                    </span>
+                </div>
+    
+                <div>
+                    <p class="infoTitle">pieces a rendre</p>
+                    <ul class="arendre">
+                    </ul>
+                </div>
+    
+            </div>
+            <div class="pieceSection">
+                <div class="listePiece">
+                    <a data-centime="1">
+                        <img src="./image/piece1.png" alt="1 centime">
+                    </a>
+                    <a data-centime="2">
+                        <img src="./image/piece2.png" alt="2 centimes">
+                    </a>
+                    <a data-centime="5">
+                        <img src="./image/piece5.png" alt="5 centimes">
+                    </a>
+                    <a data-centime="10">
+                        <img src="./image/piece10.png" alt="10 centimes">
+                    </a>
+                    <a data-centime="20">
+                        <img src="./image/piece20.png" alt="20 centimes">
+                    </a>
+                    <a data-centime="50">
+                        <img src="./image/piece50.png" alt="50 centimes">
+                    </a>
+                    <a data-centime="100">
+                        <img src="./image/piece100.png" alt="1 euro">
+                    </a>
+                    <a data-centime="200">
+                        <img src="./image/piece200.png" alt="2 euro">
+                    </a>
+                </div>
+            </div>
+    
+        </section>
+        
+        <script src="./app.js" async defer></script>
+    </body>
+</html>
