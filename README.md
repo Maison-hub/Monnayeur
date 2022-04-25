@@ -66,7 +66,7 @@ pieceDispo.forEach(function(el){ // el est succesivement egal aux elements de pi
 
 ### Résultat en HTML
 
-![blocs](.\image\readme\blocs.jpg)
+ <img  src=".\image\readme\blocs.jpg" width='100%'>
 
 - A gauche on sélectionne l'objet 
 
@@ -78,36 +78,36 @@ pieceDispo.forEach(function(el){ // el est succesivement egal aux elements de pi
 
     On sélectionne les pièces a utiliser grâce a la liste en dessous
 
-    ![listePiece](.\image\readme\listePiece.jpg)
-
     
+
+    <img  src=".\image\readme\listePiece.jpg" width='100%'>
 
 ## Animations / fonctionnalités supplémentaire
 
 ### Mode jour/nuit
 
-En haut a droite de du site vous avez un `switch` qui permet de basculer le site dans un mode diffèrent jour / nuit 
+En haut a droite de du site vous avez un `switch` qui permet de basculer le site dans un mode diffèrent jour / nuit  
 
-![darkmodeTggler](.\image\readme\darkmodeTggler.jpg) 
+<img src=".\image\readme\darkmodeTggler.jpg" width='15%'>
 
 > nb: si votre système d'exploitation est en préférence sombre le site bascule en mode nuit automatiquement a votre arrivé. 
 
 Le titre de l'onglet vous indique dans quel mode vous vous trouvez:
 
-![modejour](.\image\readme\modejour.jpg) `Mode jour Soleil`
+ <img src=".\image\readme\modejour.jpg" width='25%'> `Mode jour Soleil`
 
-![modenuit](.\image\readme\modenuit.jpg)`Mode nuit Lune`
+<img src=".\image\readme\modenuit.jpg" width='25%'>`Mode nuit Lune`
 
 > cela permet de se préparer si vous revenez sur la page après un long moment surtout si vous êtes dans le noir 😉
 
 ### Ajouter un objet
 
-![ajouterBtn](.\image\readme\ajouterBtn.jpg)Le bouton ajouter vous permet d'ajouter un objet 
+<img src=".\image\readme\ajouterBtn.jpg" width='5%'>Le bouton ajouter vous permet d'ajouter un objet 
 
-![ajouterInput](.\image\readme\ajouterInput.jpg) 
+<img src=".\image\readme\ajouterInput.jpg" width='45%'> 
 
 ### Navigation mobile
 
-![phoneSite](.\image\readme\phoneSite.jpg)
+<img src=".\image\readme\phoneSite.jpg" width='45%'>
 
 Le site est adapté a une navigation sur mobile.
