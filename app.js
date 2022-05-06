@@ -113,7 +113,7 @@ payer.onclick = ()=>{
         }
     })  
     piecearendre.forEach(function(el){
-        htmlListeaRendre.innerHTML += `<li>${el}</li>`;
+        htmlListeaRendre.innerHTML += `<li>${el/100} €</li>`;
     })
 }
 
